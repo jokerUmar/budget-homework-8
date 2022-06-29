@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <h1 class="title">BUDGET APP</h1>
+
+    <div class="flexbox">
+
+        <div class="left">
+        
+        <form action="" class="budget">
+            <h2>Please Enter Your Budget</h2>
+            <input type="number" class="budget__value">
+            <br>
+            <button class="budget__btn">Calculate</button>
+        </form>
+
+
+        <form action="" class="expense">
+            <h2>Please Enter Your Expense</h2>
+            <input type="text" required class="expense__title">
+
+            <h2>Please Enter Expense Amount</h2>
+            <input type="number" required class="expense__value">
+            <br>
+            <button class="expense__btn">Add Expense</button>
+
+        </form>
+
+    </div>
+
+    <div class="right-box" style="width: 50%;">
+
+    <div class="right">        
+        <div class="budget-result">
+            <h2>BUDGET</h2>
+            <i class="fas fa-money-bill-alt" style="font-size: 80px; color: #05668d;"></i>
+            <p class="right__text" style="color: green;">$<span class="budget-number">0</span></p>
+
+            <div>
+                <h2>Expense Title</h2>
+            </div>
+
+        </div>
+
+        <div class="expense-result">
+            <h2>EXPENSES</h2>
+            <i class="far fa-credit-card" style="font-size: 80px; color: #05668d;"></i>
+            <p class="right__text" style="color: #b80c09;">$<span class="expense-number">0</span></p>
+
+            <div>
+                <h2>Expense Value</h2>
+            </div>
+
+        </div>
+
+        <div class="balance-result">
+            <h2>BALANCE</h2>
+            <i class="fas fa-dollar-sign" style="font-size: 80px; color: #05668d;"></i>
+            <p class="right__text" style="color: green;">$<span class="balanse-number">0</span></p>
+        </div>
+
+
+    </div>
+
+    <ul class="right-list">
+    </ul>
+
+    </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

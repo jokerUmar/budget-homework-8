@@ -1,0 +1,123 @@
+body{
+    background-color:  #f5f5f5f5;
+}
+
+.title{
+    font-weight: 400;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}    
+
+
+.budget{
+    border: solid 2px green;
+    padding: 8px 20px;
+    width: 420px;
+    border-radius: 5px;
+}
+
+.budget h2{
+    font-weight: 400;
+    font-style: 20px;
+}
+
+.budget__value{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: solid 2px green;
+    outline: none;
+    border-radius: 5px;
+}
+
+.budget__btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1.5px green ;
+    color: green;
+}
+
+.budget__btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.expense{
+    border: solid 2px #b80c09;
+    margin-top: 30px;
+    padding: 8px 20px;
+    width: 500px;
+}
+
+.expense h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.expense__title , .expense__value{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: solid 1px #b80c09;
+    border-radius: 5px;
+}
+
+.expense__value{
+    margin-bottom: 10px;
+}
+
+.expense__btn{
+    border: solid 1px #b80c09 ;
+    color: #b80c09;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.expense__btn:hover{
+    background-color: #b80c09;
+    color: white;
+}
+
+
+.left{
+    width: 50%;
+}
+
+.right{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+
+.right__text{
+    font-size: 38px;
+    text-align: center;
+}
+
+.fa-trash {
+    font-size: 20px;
+}
+
+li p{
+    font-size: 20px;
+    margin-right: auto;
+}
+
+li span{
+    font-size: 20px;
+}
+
+li button {
+    margin-left: auto;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;    
+}
